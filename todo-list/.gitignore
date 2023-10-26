@@ -17,6 +17,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
+# ./src/Finished/FinishedApp
+# ./src/Finished/FinishedTodoInput
+# ./src/Finished/FinishedTodoList
 
 npm-debug.log*
 yarn-debug.log*

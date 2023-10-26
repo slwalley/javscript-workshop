@@ -15,7 +15,7 @@ body {
 
 .App {
   padding: 1rem;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
   background: #333;
@@ -80,7 +80,7 @@ button {
 }
 
 .complete-button {
-  color: green;
+  color: rgb(0, 239, 0);
 }
 
 ul {
