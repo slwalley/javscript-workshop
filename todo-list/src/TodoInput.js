@@ -1,14 +1,14 @@
-const TodoInput = () => {
+const TodoInput = ({ todo, setTodo, addTodo }) => {
   return (
     <div className='input-wrapper'>
       <input 
         type='text' 
         name='todo' 
-        value={null}
+        value={todo}
         placeholder='Create a new todo' 
-        onChange={(e) => {}} 
+        onChange={(e) => setTodo(e.target.value)} 
       />
-      <button className='add-button' onClick={() => {}}>Add</button>
+      <button className='add-button' onClick={addTodo}>Add</button>
     </div>
   )
 }
